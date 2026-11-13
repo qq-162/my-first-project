@@ -1,0 +1,20 @@
+{
+  "modules": {
+    "Speech": {
+      "features": ["iFly"]
+    }
+  },
+  "app-plus": {
+    "modules": {
+      "Speech": {
+        "iFly": true
+      }
+    },
+    "permissions": {
+      "RECORD_AUDIO": {
+        "description": "用于语音输入"
+      },
+      "INTERNET": {}
+    }
+  }
+}
